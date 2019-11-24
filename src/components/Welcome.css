@@ -1,4 +1,4 @@
-form{
+.lcome{
     background-color: whitesmoke;
      background: url("https://res.cloudinary.com/yungdenzel/image/upload/v1574581950/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash_p6a6e0.jpg") no-repeat center fixed;
     -moz-background-size: cover;
@@ -7,4 +7,6 @@ form{
     background-size: cover;
 
     }
-
+form{
+    display: flex;
+}
