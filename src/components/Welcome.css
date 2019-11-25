@@ -1,12 +1,13 @@
-.lcome{
+ .lcome{
     background-color: whitesmoke;
      background: url("https://res.cloudinary.com/yungdenzel/image/upload/v1574581950/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash_p6a6e0.jpg") no-repeat center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+   
     }
-form{
+    
+    form{
     display: flex;
 }
