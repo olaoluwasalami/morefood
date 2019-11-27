@@ -3,10 +3,13 @@ import React from 'react';
 const Footer = () => (
 
     < div className = "bg-silver" >
-    < span className = "footer pb5 pt3 flex-l helvetica tl justify-center" >
+        <h2 className="text-green pt5 pl3"> MoreFood </h2>
+
+    < span className = "footer pb5  flex-l helvetica tl justify-center" >
     <div className="company flex-l">
+
  < ul className = "list pointer">
- < h3 className = "f2"> Company </h3>
+ < h3 className = "f2 "> Company </h3>
      <li> About Us</li>
      <li> Team </li>
      <li> Career </li>
@@ -20,7 +23,7 @@ const Footer = () => (
      </ul>
 <div className="flex-l">
   <ul className="list">
-      < h3 className = "f2"> Support < /h3>   
+      < h3 className = "f2"> Support </h3>   
     <li> Customer Help </li>
     <li> Merchant help </li>
     <li>Fleet help </li>
