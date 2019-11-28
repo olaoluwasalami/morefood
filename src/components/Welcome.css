@@ -1,6 +1,6 @@
  .style{
     background-color: whitesmoke;
-     background: url("https://res.cloudinary.com/yungdenzel/image/upload/o_80/v1574581950/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash_p6a6e0.jpg") no-repeat center fixed;
+     background: url("https://res.cloudinary.com/yungdenzel/image/upload/o_80/v1574581950/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash_p6a6e0.jpg") no-repeat center fixed !important;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
