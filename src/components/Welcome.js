@@ -29,13 +29,13 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div className="lcome">
+      <div className="style">
        <Container text>
           <h1 className="tc b white pb2 pt7">
             {" "}
             What would you like to order today ?
           </h1>
-          <form className="pb6-l">
+          <form className="pb6">
             <input ref={this.autocompleteInput} id="autocomplete" placeholder="Enter your delivery address" type="text"
               className="form-control fl"    
             />
