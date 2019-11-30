@@ -40,15 +40,14 @@ class Welcome extends Component {
        duration={6} transition={0} />
                           
        <Container text>
-          <h1 className="tc b white pb2 pt7">
-            {" "}
+          < h1 className = "tc b white pb2 pt7 z-5" >
             What would you like to order today ?
           </h1>
-          <form className="pb6 flex">
+          <form className="pb6 flex-l">
             <input ref={this.autocompleteInput} id="autocomplete" placeholder="Enter your delivery address" type="text"
               className = "form-control fl"
             />
-            <input  type="submit" value="Find Food" className="fl ml2 bg-green white-90"/>
+            <input  type="submit" value="Find Food" className="fl ml2 bg-green white  mt3-m"/>
           </form>
         </Container>
        
