@@ -2,7 +2,8 @@ import React from 'react';
 
 const About = () => (
     <div>
-        <h2> About MoreFood</h2>
+        {/* <h2> About MoreFood </h2>
+      <p>Have a hard day at work </p> */}
 
     </div>
 
