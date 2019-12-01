@@ -2,9 +2,10 @@ import React from 'react';
 
 const About = () => (
     <div>
-        {/* <h2> About MoreFood </h2>
-      <p>Have a hard day at work </p> */}
-
+        <div className="mt6"> 
+        <h1 className="tc"> How it works </h1>
+        
+    </div>
     </div>
 
     );

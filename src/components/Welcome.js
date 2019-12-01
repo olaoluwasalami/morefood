@@ -49,7 +49,7 @@ class Welcome extends Component {
           </h1>
           <form className="pb6 flex-l">
             <input ref={this.autocompleteInput} id="autocomplete" placeholder="Enter your delivery address" type="text"
-              className = "form-control fl"
+              className = " b--light-blue form-control fl input[type=text]"
             />
             <input  type="submit" value="Find Food" className="fl ml2 bg-green white  mt3-m"/>
           </form>

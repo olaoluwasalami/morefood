@@ -13,7 +13,6 @@ class Morefood extends Component {
             <div className="fluid-container">
             <Header/>    
             <Welcome/> 
-            {/* <Works/> */}
             <About/>
             <Menu/>
             <Footer/>

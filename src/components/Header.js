@@ -13,10 +13,10 @@ const Header = () => (
     < Nav className= "mr-auto fr">
             
     </Nav>
-      <Nav pullRight>
-      <NavItem eventKey={1}  className="ba br3 bg-red helvetica pa2 tc pointer dim white mh3 b "href="#">
+      <Nav pullRight className="mr7">
+      <NavItem className="f6 link dim  ph3 b pv2 mb2  helvetica pointer dib white bg-red tc ma2" eventKey={1} href="#">
        Signin   </NavItem>
-      < NavItem className = "ba pa2 pointer bg-red helvetica br3 mh3 tc  mr7-l dim white b "
+      < NavItem className = "f6 link dim  ph3 pv2 mb2 b helvetica pointer dib white bg-red tc ma2"
       eventKey = {2} href = "#" > Login  </NavItem>
     </Nav>
     </Navbar.Collapse>

@@ -1,32 +1,32 @@
 import React from 'react';
-
+import tray from '../icon/tray.png';
+import { Divider } from 'semantic-ui-react'
 const Footer = () => (
 
-    < div className = "bg-silver" >
-        <h2 className="text-green pt5 pl3"> MoreFood </h2>
+    <div className = "bg-black-80" >
+        {/* <h4 className="text-green "> MoreFood <img alt="logo" src={tray}/>  </h4> */}
+   
+    <div className="company footer flex-l Arial tl justify-center flex-l mt7 pt2-l pl3-l">
 
-    < span className = "footer pb5  flex-l helvetica tl justify-center" >
-    <div className="company flex-l">
-
- < ul className = "list pointer">
- < h3 className = "f2 "> Company </h3>
-     <li> About Us</li>
-     <li> Team </li>
-     <li> Career </li>
+ <ul className = "list pointer pa5 silver">
+ <p className = "f3 white">For Company </p>
+     <li className = "f4"> About Us </li>
+      <li className = "f4"> Privacy Policy </li>
+     <li className ="f4"> Terms and Condition </li>
  </ul>
- <div className="socialmedia flex-l">
-    < ul className = "list pointer" >
-         <h3 className = "f2"> Social Media </h3>
-         <li>Twitter</li>
-         <li> Facebook</li>
-         <li> Instagram</li>
+ <div className=" flex-l ">
+    < ul className = "list pa5 silver" >
+         <p className = "white f3"> Social Media </p>
+         <li className="f4"> Twitter</li>
+         <li className ="f4"> Facebook </li>
+         <li className = "f4" > Instagram </li>
      </ul>
 <div className="flex-l">
-  <ul className="list">
-      < h3 className = "f2"> Support </h3>   
-    <li> Customer Help </li>
-    <li> Merchant help </li>
-    <li>Fleet help </li>
+  <ul className="list pa5 silver">
+      <p className = "white f3"> Support </p>   
+    <li className = "f4"> Customer Help </li>
+    <li className = "f4"> Merchant help </li>
+    <li className = "f4"> Fleet help </li>
 
   </ul>
 
@@ -34,9 +34,10 @@ const Footer = () => (
 
     </div>
     </div>
-</span>
 
-< h5 className = "tc" >©2019  Copyright  Morefood</h5>
+<Divider /> 
+
+< h5 className = "tc silver">©2019  Copyright  Morefood</h5>
 </div>
 )
 
