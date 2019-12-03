@@ -13,7 +13,7 @@ const Header = () => (
     < Nav className= "mr-auto fr">
             
     </Nav>
-      <Nav pullRight className="mr7">
+      <Nav pullRight className="mr7 tr-ns">
       <NavItem className="f6 link dim  ph3 b pv2 mb2  helvetica pointer dib white bg-red tc ma2" eventKey={1} href="#">
        Signin   </NavItem>
       < NavItem className = "f6 link dim  ph3 pv2 mb2 b helvetica pointer dib white bg-red tc ma2"

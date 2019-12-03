@@ -5,6 +5,7 @@ import search from '../icon/search.png';
 import delivery from '../icon/delivery.png';
 import food from '../icon/food.png';
 import order from '../icon/order.png';
+import pin from '../icon/pin.png';
 /* global google */
 
 
@@ -48,7 +49,7 @@ class Welcome extends Component {
             What would you like to order today ?
           </h1>
           <form className="pb6 flex-l">
-            <input ref={this.autocompleteInput} id="autocomplete" placeholder="Enter your delivery address" type="text"
+            <input ref={this.autocompleteInput} id="autocomplete" placeholder=" Enter your delivery address" type="text"
               className = " b--light-blue form-control fl input[type=text]"
             />
             <input  type="submit" value="Find Food" className="fl ml2 bg-green white  mt3-m"/>

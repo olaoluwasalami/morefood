@@ -3,6 +3,8 @@ import React from 'react';
 
 const Menu = () => (
 <div>
+
+
 <div className="pa5">
     <h5 className = " tc" > Cuisines </h5>
 
