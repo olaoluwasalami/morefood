@@ -46,33 +46,31 @@ class Welcome extends Component {
         />
 
         <Container text className="now">
-         
-            <h1 className="tc b white pb2 pt7 z-5">
-              What would you like to order today ?
-            </h1>
-            <form className="pb6 flex-l">
-              <input
-                ref={this.autocompleteInput}
-                id="autocomplete"
-                placeholder=" Enter your delivery address"
-                type="text"
-                className=" b--light-blue form-control fl input[type=text]"
-              />
-              <input
-                type="submit"
-                value="Find Food"
-                className="fl ml2 bg-green white  mt3-m"
-              />
-            </form>
-          
+          <h1 className="tc b white pb2 pt7 z-5">
+            What would you like to order today ?
+          </h1>
+          <form className="pb6 flex-l">
+            <input
+              ref={this.autocompleteInput}
+              id="autocomplete"
+              placeholder=" Enter your delivery address"
+              type="text"
+              className=" b--light-blue form-control fl input"
+            />
+            <input
+              type="submit"
+              value="Find Food"
+              className="fl ml2 bg-green white  mt3-m"
+            />
+          </form>
         </Container>
         <div>
           <div
             className="justify-center"
             style={{ backgroundColor: "#f9f9f9" }}
           >
-            <div className="flex  list justify-center-l  justify-center-m helvetica ">
-              <div className=" pr5-l pr2-m f3-l f1-ns f1-m">
+            <div className="flex  list justify-center-l pa3 justify-center-m helvetica ">
+              <div className=" pr5-l pr2-m f3-l p f1-ns f1-m">
                 <img className="justify-center " src={search} alt="search" />
                 <h5 className="tc"> Search the Menu </h5>
               </div>
