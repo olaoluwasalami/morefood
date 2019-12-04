@@ -14,9 +14,9 @@ const Header = () => (
             
     </Nav>
       <Nav pullRight className="mr7 tr-ns">
-      <NavItem className="f6 link dim  ph3 b pv2 mb2  helvetica pointer dib white bg-red tc ma2" eventKey={1} href="#">
+      <NavItem className="f6 link dim  ph3 grow b pv2 mb2  helvetica pointer dib white bg-red tc ma2" eventKey={1} href="#">
        Signin   </NavItem>
-      < NavItem className = "f6 link dim  ph3 pv2 mb2 b helvetica pointer dib white bg-red tc ma2"
+      < NavItem className = "f6 link dim grow ph3 pv2 mb2 b helvetica pointer dib white bg-red tc ma2"
       eventKey = {2} href = "#" > Login  </NavItem>
     </Nav>
     </Navbar.Collapse>

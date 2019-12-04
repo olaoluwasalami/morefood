@@ -1,5 +1,4 @@
 import React from 'react';
-import tray from '../icon/tray.png';
 import google from '../icon/google.png';
 import store from '../icon/app-store.png';
 import { Divider } from 'semantic-ui-react';
