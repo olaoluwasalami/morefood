@@ -36,7 +36,7 @@ const Footer = () => (
   </ul>
   <div classname="flex-l">
       < ul className = "list pa5-l  silver" >
-         <p className = "white f3" tc> Download < /p>
+         <p className = "white f3" tc> Download </p>
          <li><img src={google} alt="google" width="120" className=""/> </li> 
           <li>  <img src={store} alt="apple" width="120"/> </li>
                 
@@ -52,6 +52,6 @@ const Footer = () => (
 
 < h5 className = "tc f5 silver">©2019  Copyright  Morefood</h5>
 </div>
-)
+);
 
 export default Footer;
