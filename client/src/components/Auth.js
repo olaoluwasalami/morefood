@@ -20,10 +20,10 @@ class Auth {
     }
 
     getProfile(){
-        return this.profile
+        return this.profile;
     }
     getIdToken() {
-        return this.idToken
+        return this.idToken;
     }
 
     isAuthenticated(){
@@ -45,8 +45,8 @@ class Auth {
                 this.profile = authResult.idTokenPayload;
                 this.expiresAt = authResult.idTokenPayload.exp * 1000;
                 resolve();
-            })
-        })
+            });
+        });
     }
 
 

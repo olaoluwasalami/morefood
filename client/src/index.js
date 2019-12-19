@@ -1,14 +1,15 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from "react-dom";
-import Morefood from './Morefood.js';
+import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Morefood/>
-  </BrowserRouter>,
+  
+  <Router>
+    <App />
+  </Router>,
   document.getElementById("root")
 );
 

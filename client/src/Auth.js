@@ -20,10 +20,10 @@ class Auth {
     }
 
     getProfile(){
-        return this.profile
+        return this.profile;    
     }
     getIdToken() {
-        return this.idToken
+        return this.idToken;
     }
 
     isAuthenticated(){
